@@ -602,10 +602,10 @@ void read_y_then_x()
 
 Что если мы хотим делать не только атомарные указатели, числа, но и атомарные структуры. Например, такую:
 ```cpp
-struct Person {
-    std::string username;
-    std::string address;
-    int age;
+struct A { 
+    float a;
+    double b;
+    int c;
 };
 ```
 

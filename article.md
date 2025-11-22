@@ -1,14 +1,4 @@
 # Атомарность
-### TODO
-
-- Убрать примеры с UB 
-- Формализовать определения memory_order
-- Дописать определение для следующих терминов (не для всех, но):
-  - spinlock
-  - fail spuriously 
-  - data race, condition race
-  - happens-before
-  - гарантии на многопоточные программы типа lock-free, wait-free & etc
 
 ## Введение
 ### Мотивация
